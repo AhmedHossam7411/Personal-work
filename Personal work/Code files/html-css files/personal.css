@@ -1,3 +1,9 @@
+/* first coice color combinations:
+   #5D5C61
+   #379683
+   #7395AE
+   #557A95
+   #B1A296 */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -56,12 +62,12 @@
   }
   section {
     grid-area: cont;
-    background-color: rgb(218, 218, 187);
+    background-color: rgb(219, 219, 209);
     color: white;
     display: flex;
   }
   .halfcontainer{
-    background-color: blueviolet;
+    
     width: 50%;
     height: 100%;
     
@@ -69,9 +75,10 @@
   .img1{
       width: 100%;
       height:100%;
+      padding: 5px;
   }
   .half2container{
-    background-color: rgb(45, 84, 225);
+    
     width: 50%;
     height: 100%;
     padding: 1em;
