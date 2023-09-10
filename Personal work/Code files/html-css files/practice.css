@@ -3,3 +3,30 @@
     margin: 0;
     padding: 0;
 }
+.shape{
+    position: relative;
+    width:200px ;
+    height: 200px;
+    background-color: rgb(187, 187, 207);
+    border-radius: 50%;
+    left: 120px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid red;
+    border-left: transparent;
+    animation-name: spin;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear ;
+    animation-duration: 3s;
+    
+}
+@keyframes spin{
+      0%{
+        transform: rotate(0deg);
+      }
+      100%{
+        transform: rotate(360deg);
+      }
+}
