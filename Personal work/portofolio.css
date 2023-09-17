@@ -106,9 +106,62 @@ section{
     color: #001233;
 }
 
-.social-icons  a{
-    
+.brand {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px;
     color: #FF595A;
-    font-size: 1.7em;
+    font-size: 1.5em;
     padding-right: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #001233;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;  /* without this property the cards would shrink to fit new widths ,so instead this makes things move */
+}
+
+.card{
+    background-color: #ffffff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    background-color: #ffffff;
+    transform: scale(1.1);
+}
+
+.icon{
+    color: #001233;
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color: #CAC0B3;
+    font: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.info p span{
+    color: #FF595A;
 }
