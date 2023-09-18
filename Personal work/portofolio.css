@@ -175,3 +175,73 @@ section{
 .cards-contact{
     background-color: #faf8f7;
 }
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    font-size: 1em;
+    background-color: #001233;
+    color: #CAC0B3;
+}
+.footer p span{
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #FF595A;
+}
+
+.brandfooter{
+    font-size: 1.3em;
+    color: #CAC0B3;
+    padding-right: 10px;
+}
+@media (max-width:1046px){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    .main{
+        justify-content: flex-end;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main h2{
+        font-size: 1.2em;
+    }
+    .main h3{
+        font-size: 1.6em;
+    }
+    .content{
+        flex-direction: row;
+        align-items: center;
+    }
+}
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+    .main h2{
+        font-size: 1.4em;
+
+    }
+    .main h3{
+        font-size: 1.5em;
+    }
+
+}
+@media (max-width:350px){
+    body{
+        font-size: 10px;
+    }
+    header{
+        font-size: 1em;
+    }
+}
