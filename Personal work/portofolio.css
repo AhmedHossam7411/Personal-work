@@ -125,17 +125,18 @@ section{
     font-weight: 800;
     margin-bottom: 30px;
 }
-.content{
+.content {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap;  /* without this property the cards would shrink to fit new widths ,so instead this makes things move */
+    flex-wrap: wrap;
 }
 
-.card{
-    background-color: #ffffff;
+.card {
+    display: inline-block;
+    background-color: #fff;
     width: 21.25em;
-    box-shadow: 0 5px 25px rgba(1 1 1/15%);
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
@@ -164,4 +165,13 @@ section{
 }
 .info p span{
     color: #FF595A;
+}
+
+.icon-contact{
+    color: #001233;
+    font-size: 4em;
+    text-align: center;
+}
+.cards-contact{
+    background-color: #faf8f7;
 }
