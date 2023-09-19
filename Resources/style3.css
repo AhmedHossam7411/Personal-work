@@ -1,0 +1,43 @@
+/* functionality check! */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+.page{
+   height: 1000px;
+   display: grid;
+   grid-template-columns: repeat(10,1fr);
+   grid-template-rows: 50px auto 50px;
+   grid-template-areas: "logo logo nav nav nav nav nav nav nav nav"
+   "cont cont cont cont cont cont cont cont side side"
+   "foot foot foot foot foot foot foot foot foot foot";
+}
+h2{
+    grid-area: logo;
+    background-color: aqua;
+}
+nav{
+    grid-area: nav;
+    background-color: blueviolet;
+}
+section{
+    grid-area: cont;
+    background-color: black;
+    color: white;
+}
+aside{
+    grid-area: side;
+    background-color: rgb(106, 125, 119);
+}
+footer{
+    grid-area: foot;
+    background-color: brown;
+} 
+/* some changes using grid property.*/
