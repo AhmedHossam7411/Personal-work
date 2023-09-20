@@ -57,7 +57,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url('/Resources/Formal\ Ahmed.jpg');
+    background-image: url('Ahmed2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left left;
