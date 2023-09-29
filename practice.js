@@ -1,19 +1,13 @@
-let name="Ahmed";
-document.write(`<div>
-Hello
-<p> Hi ${name}
-</p>
-</div>`);
- 
-let list=[1,2,3,4,5];
-
-
-
-
-console.log(list);
-document.getElementById("btns").onclick=function move(){
-    console.log(`${name}`);
+  
+function ahmed(car){
+    car="w"
 };
 
+function omar(){
+    let car=10;
+    console.log(car);
+};
 
+omar();
 
+console.log(car);
